@@ -35,7 +35,7 @@ def newFunc():
 
 newFunc()
 
-a = "hello Mr.Abeshov"
+a = "hello Mr.pp2"
 
 print(a[5])
 
@@ -53,3 +53,22 @@ else:
     print("NO")
 
 print(a[:15])
+
+print(a.upper())
+print(a.lower())
+
+b = "      h e l l o         "
+bb = "word"
+print(b.strip())
+print(b)
+
+print(b.replace("h", "f"))
+print(b.split(" "))
+
+age = int(input())
+txt = "I'm", age, "years old"
+print(f"I'm {age} years old")
+
+print("to use another double \"quote\" use back slash")
+
+print(bb.capitalize())

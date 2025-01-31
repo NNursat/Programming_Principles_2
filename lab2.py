@@ -108,6 +108,7 @@ print(thisset)
 mydict = {
     "country": "Kazakhstan",
     "population": "20 millions",
-    "foundation year": 1991
+    "foundation year": 1991,
+    "capital": "Astana"
 }
 print(mydict["country"])

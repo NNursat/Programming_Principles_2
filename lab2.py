@@ -117,4 +117,10 @@ mydict2 = {
     "foundation year": 1991,
     "capital": "Moscow",
 }
+mydict3 = {
+    "country": "Ukraine",
+    "population": "40 millions",
+    "foundation year": 1991,
+    "capital": "Kyiv",
+}
 print(mydict["country"])

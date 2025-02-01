@@ -124,3 +124,81 @@ mydict3 = {
     "capital": "Kyiv",
 }
 print(mydict["country"])
+bestcountry = mydict["country"]
+bestcountry = mydict.get("country")
+x = mydict.values()
+print(x)
+
+mydict["atWar?"] = False
+
+print(mydict)
+
+copyofdict = mydict.copy()
+
+
+CarDict = {
+    "My": {
+       "brand": "Toyota",
+       "model": "RAV4",
+       "year": 2018,
+       "horsepower": 178
+    },
+    "Borya": {
+        "brand": "Subaru",
+        "model": "WRX",
+        "year": 2014,
+        "horsepower": 268
+    },
+    "Bakha" : {
+        "brand": "Kia",
+        "model": "Rio",
+        "year": 2012,
+        "horsepower": 102
+    }
+}
+
+print(CarDict["Borya"]["year"])
+
+for x, obj in CarDict.items():
+  print(x)
+
+  for y in obj:
+    print(y, obj[y])
+
+#if else
+
+if CarDict["Bakha"]["year"] > CarDict["Borya"]["year"]:
+   print("Bakha's car is newer")
+else:
+   print("Borya's car is newer")
+
+counter = 0
+while counter < 100:
+    counter += 1
+else:
+    print("i uzhe ravno 100")
+
+print(counter)
+
+userinput = str(input())
+
+for x in mytuple:
+  print(x)
+  if x == userinput:
+    print("founded")
+    break
+else:
+    print("not found")
+
+for i in range(7):
+    print(i + 100)
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+for x in [0, 1, 2]:
+  pass

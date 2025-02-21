@@ -1,16 +1,16 @@
-# class StringMethods:
-#     def __init__(self):
-#         self.text = ""
+class StringMethods:
+    def __init__(self):
+        self.text = ""
 
-#     def getString(self):
-#         self.text = input()
+    def getString(self):
+        self.text = input()
 
-#     def printString(self):
-#         print(self.text.upper())
+    def printString(self):
+        print(self.text.upper())
 
-# sm = StringMethods()
-# sm.getString()
-# sm.printString()
+sm = StringMethods()
+sm.getString()
+sm.printString()
 
 class Shape:
     def area():
@@ -88,14 +88,9 @@ class Account:
 # bank = Account()
 # bank.deposit()
 # bank.withdraw()
-# bank.showBalance()
+# bank.showBalance()5
 
 is_prime = lambda num: num > 1 and all(num % i != 0 for i in range(2, int(num ** 0.5) + 1))
 numbers = [2, 3, 4, 5, 10, 11, 13, 15, 17, 19, 21, 23]
 prime_numbers = list(filter(is_prime, numbers))
 print("Prime numbers:", prime_numbers)
-
-        
-    
-
-        

@@ -1,0 +1,28 @@
+import datetime
+currentDate = datetime.datetime.now()
+delta = datetime.timedelta(days=1)
+#first task
+first = datetime.timedelta(days=5)
+firstTask = currentDate - first
+print(firstTask)
+
+print('\n')
+
+#Second task
+def YesTodTom(currentDate):
+    delta = datetime.timedelta(days=1)
+    print(currentDate - delta)
+    print(currentDate)
+    print(currentDate + delta)
+
+YesTodTom(currentDate)
+
+#third task
+thirdTask = currentDate.strftime("%Y-%m-%d %H:%M:%S")
+print(thirdTask)
+
+#fourth task 
+yesterdayDate = currentDate - delta
+difference = currentDate - yesterdayDate
+difference = difference.total_seconds()
+print(difference)

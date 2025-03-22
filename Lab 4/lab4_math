@@ -2,16 +2,16 @@ import math
 
 # 1
 degree = 15
-# print(math.radians(degree))
+print(math.radians(degree))
 
 #  2
 height, base_1, base_2 = list(map(int, input().split()))
-# print((1/2) * (base_1 + base_2) * height)
+print((1/2) * (base_1 + base_2) * height)
 
 # 3
 sides, length = list(map(int, input().split()))
-# print((sides * length**2) / (4 * math.tan(math.pi / sides)))
+print((sides * math.pow(length, 2)) / (4 * math.tan(math.pi / sides)))
 
 # 4
 length, height = list(map(int, input().split()))
-print(length * height)
+print(math.hypot(length, height))
